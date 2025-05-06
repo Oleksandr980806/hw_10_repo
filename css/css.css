@@ -1,0 +1,76 @@
+* {
+    *box-sizing: border-box;
+}
+
+.father {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border: 5px solid lawngreen;
+    flex-direction: column;
+    background-color: lawngreen;
+
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.yellow_box {
+    display: flex;
+    width: 800px;
+    height: 150px;
+    background-color: yellow;
+}
+
+.left_box, .right_box {
+    width: 150px;
+    height: 650px;
+    flex-shrink: 0;
+    border: 5px solid lawngreen;
+}
+
+.left_box {
+    background-color: deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+
+}
+.green_box {
+    background-color: green;
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.right_box {
+    background-color: plum;
+}
+
+.purple_box {
+    display: flex;
+    flex: 1;
+    background-color: purple;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    overflow-x: scroll;
+
+}
+.light_green_box{
+    background-color: green;
+    width: 200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 5px;
+}
